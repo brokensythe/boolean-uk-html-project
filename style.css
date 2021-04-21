@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+:root {
+    --main-background: #151921;
+    --bottom-toolbar-background: #282828;
+    --header-background: #0d0f14d8; 
+}
+
+/* UTILIY STYLING */
+
+.round {
+    border-radius: 50%;
+}
+
+.cut-corners {
+    border-radius: 20px;
+}
+
+.rounded-sides {
+    border-radius: 56px;
+}
+
+.white {
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+.thumbnail {
+    width: 100%;
+}
+
+.control-icons {
+    height: 6vh;
+    width: 3vw;
+}
+
+.expand {
+    width: 100%;
+}
+
+.center {
+    place-items: center;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.white-fill {
+    fill: #fff;
+}
+
+.link-reset {
+    text-decoration: none;
+}
+
+.right-wrapper {
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: 14rem;
+    padding: 3rem 1rem;
+}
+
+.left-wrapper {
+    max-width: 250px;
+    margin-left: 22rem;
+    margin-right: auto;
+    padding: 3rem 1rem;
+}
+
+h2 {
+    font-variant-caps: all-small-caps;
+}
+
+/* DEBUGGING */
+
+body {
+    background-color: blueviolet;
+}
+
+/* TOP LEVEL LAYOUT */
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 15fr;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* LEFT MENU */
+
+.left-menu {
+    background-color: #ffaec9;
+    padding: 1rem;
+    display: grid;
+    align-content: space-between;
+}
+
+/* MAIN BODY */
+
+.main-body {
+    background-color: greenyellow;
+    overflow: scroll;
+}
+
+.main-body header {
+    background-image: url(assets/backgrounds/white-and-medium-purple.png);
+    background-size: cover;
+    display: grid;
+    place-content: center;
+}
+
+.take-away {
+    display: grid;
+    justify-content: right;
+    background-image: url(assets/backgrounds/black-and-blue.png);
+    background-size: cover;
+}
+
+.link-reset h2:hover {
+    text-decoration: wavy underline #ffaec9;
+    text-shadow: #16E0BD 1px 0 10px;
+}
+
+.link-reset h2:active {
+    text-decoration: wavy underline #ffaec9;
+    text-shadow: #16E0BD 1px 0 10px;
+    transform: translateY(5px);
+}
+
+.contact {
+    background-image: url(assets/backgrounds/white-and-middle-blue.png);
+    background-size: cover;
+    color: #17454A;
+}

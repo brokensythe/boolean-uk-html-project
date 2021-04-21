@@ -1,0 +1,77 @@
+/* UTILITY STYLING */
+
+h2 {
+    text-align: center;
+    color: #0CCE6B;
+}
+
+.image-sizes {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    justify-self: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.menu-items {
+    border: 4px solid #fff;
+    display: grid;
+    padding: 5px;
+}
+
+.heading-margin {
+    margin-bottom: 5%;
+}
+
+/* HEADER */
+
+.main-body header {
+    min-height: 350px;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia0.giphy.com%2Fmedia%2FnqtA5obHo3CSelfeKS%2Fsource.gif&f=1&nofb=1);
+    background-position-y: -335px;
+    position: relative;
+}
+
+h1 {
+    font-style: oblique;
+}
+
+.control-icons {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    background-color: black;
+}
+
+/* MENU */
+
+.menu-container {
+    background-image: url(../assets/backgrounds/black-and-vermillion.png);
+    background-size: cover;
+}
+
+.menu-wrapper {
+    min-height: auto;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3rem 1rem;
+}
+
+.item-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+}
+
+.cart-button {
+    width: 20%;
+    height: 3rem;
+    justify-self: right;
+    color: #e9190f;
+    background-color: black;
+    border: none;
+}
