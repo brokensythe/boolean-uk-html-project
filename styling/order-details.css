@@ -50,3 +50,19 @@ hr {
 form p > * {
     border: none;
 }
+
+.input-container {
+    justify-content: center;
+    display: grid;
+}
+
+.cart-button {
+    height: 2rem;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 0rem 2rem;
+}
+
+.cart-button:hover {
+    animation: border-rotation 2s infinite linear;
+}

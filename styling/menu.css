@@ -82,6 +82,10 @@ h1 {
     border: none;
 }
 
+.cart-button:hover {
+    animation: border-rotation 2s infinite linear;
+}
+
 /* MOBILE RESIZE */
 
 @media screen and (max-width: 1392px) {

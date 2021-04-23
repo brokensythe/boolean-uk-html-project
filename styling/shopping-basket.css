@@ -69,6 +69,17 @@
     grid-template-columns: 70% 30%;
 }
 
+.cart-button {
+    height: 2rem;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: .3rem;
+}
+
+.cart-button:hover {
+    animation: border-rotation 2s infinite linear;
+}
+
 /* FORM AREA */
 
 .form-area header.form-area-header {

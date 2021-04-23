@@ -71,6 +71,43 @@ h2 {
     font-variant-caps: all-small-caps;
 }
 
+@keyframes border-rotation {
+    0% {
+        border-top: 3px solid #9DF7E5;
+        border-right: 3px solid #9DF7E5;
+        border-bottom: 3px solid #4059AD;
+        border-left: 3px solid #4059AD;
+    }
+
+    25% {
+        border-top: 3px solid #4059AD;
+        border-right: 3px solid #9DF7E5;
+        border-bottom: 3px solid #9DF7E5;
+        border-left: 3px solid #4059AD;
+    }
+
+    50% {
+        border-top: 3px solid #4059AD;
+        border-right: 3px solid #4059AD;
+        border-bottom: 3px solid #9DF7E5;
+        border-left: 3px solid #9DF7E5;
+    }
+
+    75% {
+        border-top: 3px solid #9DF7E5;
+        border-right: 3px solid #4059AD;
+        border-bottom: 3px solid #4059AD;
+        border-left: 3px solid #9DF7E5;
+    }
+
+    100% {
+        border-top: 3px solid #9DF7E5;
+        border-right: 3px solid #9DF7E5;
+        border-bottom: 3px solid #4059AD;
+        border-left: 3px solid #4059AD;
+    }
+}
+
 /* DEBUGGING */
 
 body {
@@ -98,7 +135,6 @@ body {
 /* MAIN BODY */
 
 .main-body {
-    /* background-color: greenyellow; */
     overflow: scroll;
 }
 
