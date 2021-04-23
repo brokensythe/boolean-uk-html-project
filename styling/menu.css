@@ -90,6 +90,22 @@ h1 {
     animation: border-rotation 2s infinite linear;
 }
 
+.menu-items {
+    position: relative;
+}
+
+.price {
+    color: white;
+    position: absolute;
+    background-color: #e9190f;
+    height: 40px;
+    width: 40px;
+    display: grid;
+    place-content: center;
+    justify-self: right;
+}
+
+
 /* MOBILE RESIZE */
 
 @media screen and (max-width: 1392px) {
@@ -103,6 +119,16 @@ h1 {
         background-image: none;
         background: radial-gradient(circle, hsla(41, 100%, 51%, 1) 22%, hsla(166, 100%, 63%, 1) 60%);
     }
+}
+
+@media screen and (max-width: 473px) {
+    .price {
+        height: 20px;
+        width: 20px;
+        font-size: 10px;
+        right: 4px;
+        top: 30px;
+    }   
 }
 
 @media screen and (max-width: 464px) {
