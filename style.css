@@ -98,7 +98,7 @@ body {
 /* MAIN BODY */
 
 .main-body {
-    background-color: greenyellow;
+    /* background-color: greenyellow; */
     overflow: scroll;
 }
 

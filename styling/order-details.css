@@ -1,4 +1,23 @@
+/* FULL BODY BACKGROUND */
+
+body {
+    background-image: url(../assets/backgrounds/white-and-middle-blue.png);
+    background-size: cover;
+}
+
+
+/* HEADER */
+
+.main-body header {
+    grid-area: header;
+    background-size: cover;
+    display: grid;
+    place-content: center;
+    padding: 1rem;
+}
+
 /* FORM */
+
 .form-container{
     display: grid;
     place-content: center;
@@ -15,10 +34,12 @@ form {
     max-width: 800px;
     grid-gap: 10px;
     grid-template-columns: 400px;
+    background: none;
 }
   
 form > * {
     border: none;
+    background: none;
 }
     
 hr {
