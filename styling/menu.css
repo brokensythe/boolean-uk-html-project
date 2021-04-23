@@ -51,6 +51,10 @@ h1 {
     width: 40px;
 }
 
+.control-icons:hover {
+    transform: scale(1.1);
+}
+
 /* MENU */
 
 .menu-container {

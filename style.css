@@ -215,3 +215,9 @@ body {
         grid-template-columns: 2.5fr 15fr;
     }
 }
+
+@media screen and (max-width: 595px) {
+    body {
+        grid-template-columns: 3fr 15fr;
+    }
+}

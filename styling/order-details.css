@@ -40,6 +40,11 @@ form {
 form > * {
     border: none;
     background: none;
+    outline: none;
+}
+
+form > *:focus {
+    transform: translateY(4px);
 }
     
 hr {
