@@ -1,0 +1,31 @@
+/* FORM */
+.form-container{
+    display: grid;
+    place-content: center;
+    padding: 5rem;
+}
+
+form {
+    background-color: #fff;
+    display: grid;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 12px;
+    min-height: 600px;
+    max-width: 800px;
+    grid-gap: 10px;
+    grid-template-columns: 400px;
+}
+  
+form > * {
+    border: none;
+}
+    
+hr {
+    border: 1px solid #b6b6b6;
+    height: 1px;
+}
+
+form p > * {
+    border: none;
+}

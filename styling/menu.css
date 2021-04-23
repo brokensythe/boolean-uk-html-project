@@ -6,7 +6,7 @@ h2 {
 }
 
 .image-sizes {
-    width: 300px;
+    width: 100%;
     height: 200px;
     object-fit: cover;
     justify-self: center;
@@ -49,8 +49,9 @@ h1 {
 /* MENU */
 
 .menu-container {
-    background-image: url(../assets/backgrounds/black-and-vermillion.png);
+    background-image: url(../assets/backgrounds/black-and-vermillion-polka-dots.png);
     background-size: cover;
+    background-position-x: -1200px;
 }
 
 .menu-wrapper {
@@ -74,4 +75,74 @@ h1 {
     color: #e9190f;
     background-color: black;
     border: none;
+}
+
+/* MOBILE RESIZE */
+
+@media screen and (max-width: 1392px) {
+    .main-body header {
+        background-position-y: -100px;
+    }
+
+    .control-icons {
+        width: 4vw;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .control-icons {
+        height: 7vh;
+        width: 5vw;
+    }
+}
+
+@media screen and (max-width: 928px) {
+    .main-body header {
+        background-image: none;
+        background: radial-gradient(circle, hsla(41, 100%, 51%, 1) 22%, hsla(166, 100%, 63%, 1) 60%);
+    }
+
+    .control-icons {
+        width: 6vw;
+    }
+}
+
+@media screen and (max-width: 842px) {
+    .control-icons {
+        height: 8vh;
+        width: 8vw;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .control-icons {
+        height: 8vh;
+        width: 8vw;
+    }
+}
+
+@media screen and (max-width: 698px) {
+    .control-icons {
+        height: 8vh;
+        width: 9vw;
+    }
+}
+
+@media screen and (max-width: 648px) {
+    .control-icons {
+        height: 8vh;
+        width: 9vw;
+    }
+}
+
+@media screen and (max-width: 464px) {
+    .item-container {
+        grid-template-columns: none;   
+    }
+
+    .cart-button {
+        width: 50%;
+        height: 100%;
+        justify-self: center;
+    }
 }

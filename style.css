@@ -22,7 +22,7 @@
 }
 
 .rounded-sides {
-    border-radius: 56px;
+    border-radius: 4px;
 }
 
 .white {
@@ -47,9 +47,7 @@ ul {
 }
 
 .center {
-    place-items: center;
-    display: grid;
-    grid-auto-flow: column;
+    place-self: center;
 }
 
 .white-fill {
@@ -96,7 +94,7 @@ body {
 /* LEFT MENU */
 
 .left-menu {
-    background-color: #ffaec9;
+    background: linear-gradient(135deg, hsla(197, 100%, 63%, 1) 0%, hsla(340, 100%, 84%, 1) 57%);
     padding: 1rem;
     display: grid;
     align-content: space-between;
@@ -138,4 +136,51 @@ body {
     background-image: url(assets/backgrounds/white-and-middle-blue.png);
     background-size: cover;
     color: #17454A;
+}
+
+/* PAGE NAVIGATION */
+
+.navigation {
+    position: fixed;
+    right: 5%;
+    top: 5%;
+}
+
+.navigation li {
+    margin-bottom: 10px;
+    background-color: #0A122A;
+    text-align: center;
+    padding: .3rem;
+}
+
+.navigation ul::before {
+    position: absolute;
+    content: '';
+    width: 3px;
+    top: 0;
+    left: 50%;
+    height: 85%;
+    background-color: #97DFFC;
+    z-index: -1;
+}
+
+
+/* MOBILE RESIZE */
+
+@media screen and (max-width: 1540px) {
+    body {
+        grid-template-columns: 1.5fr 15fr;
+    }
+}
+
+@media screen and (max-width: 835px) {
+    body {
+        grid-template-columns: 2fr 15fr;
+    }
+}
+
+@media screen and (max-width: 758px) {
+    body {
+        grid-template-columns: 2.5fr 15fr;
+    }
 }
