@@ -5,11 +5,6 @@
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 }
 
-:root {
-    --main-background: #151921;
-    --bottom-toolbar-background: #282828;
-    --header-background: #0d0f14d8; 
-}
 
 /* UTILIY STYLING */
 
@@ -87,7 +82,7 @@ body {
 body {
     display: grid;
     grid-template-columns: 1fr 15fr;
-    width: 100vw;
+    max-width: 100vw;
     height: 100vh;
 }
 
@@ -107,7 +102,7 @@ body {
     overflow: scroll;
 }
 
-.main-body header {
+.index-header {
     background-image: url(assets/backgrounds/white-and-medium-purple.png);
     background-size: cover;
     display: grid;

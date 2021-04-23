@@ -33,6 +33,9 @@ h2 {
     background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia0.giphy.com%2Fmedia%2FnqtA5obHo3CSelfeKS%2Fsource.gif&f=1&nofb=1);
     background-position-y: -335px;
     position: relative;
+    background-size: cover;
+    display: grid;
+    place-content: center;
 }
 
 h1 {
@@ -44,6 +47,8 @@ h1 {
     top: 25px;
     right: 25px;
     background-color: black;
+    height: 40px;
+    width: 40px;
 }
 
 /* MENU */
@@ -83,55 +88,12 @@ h1 {
     .main-body header {
         background-position-y: -100px;
     }
-
-    .control-icons {
-        width: 4vw;
-    }
-}
-
-@media screen and (max-width: 1080px) {
-    .control-icons {
-        height: 7vh;
-        width: 5vw;
-    }
 }
 
 @media screen and (max-width: 928px) {
     .main-body header {
         background-image: none;
         background: radial-gradient(circle, hsla(41, 100%, 51%, 1) 22%, hsla(166, 100%, 63%, 1) 60%);
-    }
-
-    .control-icons {
-        width: 6vw;
-    }
-}
-
-@media screen and (max-width: 842px) {
-    .control-icons {
-        height: 8vh;
-        width: 8vw;
-    }
-}
-
-@media screen and (max-width: 740px) {
-    .control-icons {
-        height: 8vh;
-        width: 8vw;
-    }
-}
-
-@media screen and (max-width: 698px) {
-    .control-icons {
-        height: 8vh;
-        width: 9vw;
-    }
-}
-
-@media screen and (max-width: 648px) {
-    .control-icons {
-        height: 8vh;
-        width: 9vw;
     }
 }
 

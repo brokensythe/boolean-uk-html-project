@@ -17,16 +17,20 @@
 .main-body header.header {
     grid-area: header;
     background: linear-gradient(225deg, hsla(269, 75%, 31%, 1) 39%, hsla(45, 77%, 79%, 1) 63%);
+    background-size: cover;
+    display: grid;
+    place-content: center;
 }
 
 .form-area {
     grid-area: form-area;
-    background-color: chartreuse;
+    background-image: url(../assets/backgrounds/black-and-granny-smith-polka-dots.png);
+    color: #fff;
 }
 
 .confirmation {
     grid-area: confirmation;
-    background-color: crimson;
+    background-color: #fff;
 }
 
 /* HEADER */
@@ -38,9 +42,18 @@
 
 /* CONFIRMATION */
 
+.confirmation {
+    padding: 3rem 2rem;
+    display: grid;
+    background-image: url(../assets/backgrounds/white-and-fiery-rose.png);
+    background-size: 20%;
+}
+
 .confirmation-container {
     padding: 1rem;
     display: grid;
+    border: 3px solid #000;
+    border-radius: 50px;
 }
 
 .confirmation-container h3 {
@@ -48,7 +61,6 @@
 }
 
 .confirmation-container div {
-    border: 3px solid #000;
     padding: 1rem;
 }
 
@@ -60,14 +72,13 @@
 /* FORM AREA */
 
 .form-area header.form-area-header {
-    background-color: darkgoldenrod;
-    background-image: none;
+    /* background-color: darkgoldenrod; */
     display: grid;
     grid-template-columns: 5% 75% 20%;
 }
 
 .form-area main {
-    background-color: darkturquoise;
+    /* background-color: darkturquoise; */
     display: grid;
     grid-template-columns: 5% 20% 55% 20%;
     grid-auto-rows: 100px;
