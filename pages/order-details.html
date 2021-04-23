@@ -21,25 +21,25 @@
            <div class="form-container">
                <form>
                    <label for="">First Name *</label>
-                   <input required placeholder="First Name" type="text" />
+                   <input required pattern="[A-Za-z]+" placeholder="First Name" type="text" />
                    <hr />
                    <label for="">Last Name *</label>
-                   <input required placeholder="Last Name" type="text" />
+                   <input required pattern="[A-Za-z]+" placeholder="Last Name" type="text" />
                    <hr />
                    <label for="">Email</label>
                    <input placeholder="Email" type="email">
                    <hr>
                    <label for="">Mobile Number *</label>
-                   <input required placeholder="Phone no." type="text">
+                   <input required pattern="[0-9]+ {10,11}" placeholder="Phone no." type="text">
                    <hr>
                    <label for="">Address *</label>
-                   <textarea required name="" id="" placeholder="Address"></textarea>
+                   <textarea required pattern="[A-Za-z0-9]+" name="" id="" placeholder="Address"></textarea>
                    <hr>
                    <label for="">City *</label>
-                   <input required placeholder="Your City" type="text">
+                   <input required pattern="[A-Za-z]+" placeholder="Your City" type="text">
                    <hr>
                    <label for="">Postcode *</label>
-                   <input required placeholder="Postcode" type="text">
+                   <input required pattern="[A-Za-z0-9]+" placeholder="Postcode" type="text">
                    <hr>
                    <label for="">Delivery time *</label>
                    <input required type="time">
